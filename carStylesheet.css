@@ -1,0 +1,275 @@
+.sky {
+	width: 100%;
+	height: 30vw;
+	position: absolute;
+}
+.floor {
+	width: 100%;
+	height: 30vw;
+	position: absolute;
+	top: 30vw;
+}
+.overall{
+	background-image: linear-gradient(to bottom, #f43b47 0%, #453a94 100%);
+	background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+	background-image: linear-gradient(-225deg, #231557 0%, #44107A 16%, #FF1361 75%, #ffbc00 100%);
+	height: 60vw;
+}
+
+.cyberTruck {
+	position: absolute;
+	top: 18vw;
+	left: 24vw;
+}
+.car-bg {
+	width: 50vw;
+	height: 20vw;
+	clip-path: polygon(35% 10%, 63% 11%, 100% 44%, 97% 74%, 35% 94%, 0 75%, 0 48%);	
+	position: relative;
+}
+.car-front {
+	clip-path: polygon(35% 0, 69% 0, 43% 34%, 34% 42%, 2% 37%, 0 31%);
+
+	height: 23vw;
+	width: 47vw;
+	position: absolute;
+	left: 0vw;
+	top: 2vw;
+	background: rgb(148, 148, 148);
+}
+
+.front-glass-bg {
+	width: 100%;
+	height: 5.5vw;
+	transform: rotate(3deg);
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 0vw;
+}
+.front-glass-sub-bg {
+	width: 50%;
+	height: 4.3vw;
+	transform: skewX(-60deg);
+	background:	rgba(255, 255, 255, 0.6);
+	position: absolute;
+	top: 1vw;
+}
+.car-window-bg {
+	clip-path: polygon(100% 37%, 68% 0, 43% 46%);
+
+	width: 65vw;
+	height: 20vw;
+	background: rgba(255, 255, 255, 1);
+	position: absolute;
+	left: -12vw;
+	top: 1.5vw;
+}
+.window1 {
+	width: 6vw; 
+	height: 10vw;
+	transform: skewX(6deg);
+	border: 1px solid rgba(0,0,0,0.5);
+	position: absolute;
+	left: 39.5vw;
+	top: 0vw;
+}
+.window2 {
+	width: 4vw; 
+	height: 10vw;
+	transform: skewX(6deg);
+	border: 1px solid rgba(0,0,0,0.5);
+	border-left: transparent;
+	position: absolute;
+	left: 47.5vw;
+	top: 0vw;
+}
+
+.car-window-glass {
+	clip-path: polygon(71% 0, 91% 23%, 92% 44%, 43% 54%);
+	background: rgb(58, 58, 58);
+	width: 40vw;
+	height: 12vw;
+	position: absolute;
+	left: 15vw;
+	top: 1.6vw;
+}
+
+.car-left-body {
+	clip-path: polygon(32% 33%, 100% 23%, 97% 53%, 35% 75%);
+
+	background: #70645E;
+	height: 20vw;
+	width: 50vw;
+	position: absolute;
+	top: 4vw;
+}
+
+.left-body-strip {
+	clip-path: polygon(10% 67%, 95% 45%, 93% 60%, 20% 79%);
+
+	background:	rgb(65, 60, 58);
+	height: 20vw;
+	width: 39vw;
+	position: absolute;
+	top: 5.5vw;
+	left: 11.6vw;
+}
+
+.car-door1 {
+	width: 6vw; 
+	height: 10vw;
+	border: 1px solid rgba(0,0,0,0.5);
+	position: absolute;
+	left: 28vw;
+	top: 5vw;
+}
+.car-door2 {
+	width: 4vw; 
+	height: 10vw;
+	border: 1px solid rgba(0,0,0,0.5);
+	border-left: transparent;
+	position: absolute;
+	left: 36vw;
+	top: 5vw;
+}
+
+
+.car-bonnet-bg {
+	clip-path: polygon(6% 34%, 70% 42%, 94% 36%, 100% 100%, 70% 100%, 30% 100%, 0 100%, 0 23%);
+
+	background:	rgb(90, 84, 81);
+	height: 12vw;
+	width: 18vw;
+	position: absolute;
+	top: 6.5vw;
+	left: 0vw;
+}
+
+.bonnet {
+	clip-path: polygon(48% 74%, 58% 75%, 60% 94%, 47% 91%, 13% 70%, 12.5% 55%);
+
+	background:	rgb(39, 38, 37);
+	height: 15vw;
+	width: 40vw;
+	position: absolute;
+	top: 7vw;
+	left: -4.5vw;
+}
+
+.bonnet-middle {
+	clip-path: polygon(13% 1%, 69% 0, 100% 100%, 3% 100%);
+
+	background:	rgba(0, 0, 0, 0.2);
+	height: 16vw;
+	width: 15vw;
+	position: absolute;
+	top: -2vw;
+	left: 0vw;
+}
+
+.head-light {
+	clip-path: polygon(6% 34%, 70% 42%, 93% 33%, 95% 44%, 70% 47%, 5% 39%, 0 34%, 0 23%);
+	background:	rgb(255, 255, 255);
+	box-shadow: 0px 0px 16px 14px #ffffff;
+	height: 12vw;
+	width: 18vw;
+	position: absolute;
+	top: 6vw;
+	left: 0vw;;
+}
+
+
+.front-wheel-socket {
+	clip-path: polygon(48% 59%, 54% 79%, 53% 93%, 27% 99%, 26% 84%, 32% 62%);
+
+	background: rgb(0, 0, 0);
+	height: 15vw;
+	width: 30vw;
+	position: absolute;
+	top: 5.8vw;
+	left: 15vw;
+}
+
+.back-wheel-socket {
+	clip-path: polygon(48% 59%, 54% 79%, 53% 93%, 27% 99%, 26% 84%, 32% 62%);
+
+	background: rgb(0, 0, 0);
+	height: 12vw;
+	width: 24vw;
+	position: absolute;
+	top: 6.6vw;
+	left: 34vw;
+}
+
+.front-wheel-cover-1 {
+	clip-path: polygon(24% 7%, 58% 2%, 63% 16%, 20% 20%);
+
+	background:	rgb(138, 131, 128);
+	position: absolute;
+	left: 20vw;
+	top: 13.3vw;
+	height: 10vw;
+	width: 15vw;
+}
+.front-wheel-cover-2 {
+	clip-path: polygon(40% 6%, 48% 17%, 37% 47%, 38% 71%, 31% 76%, 29% 44%);
+
+	background: rgb(73, 70, 68);
+	position: absolute;
+	left: 17.5vw;
+	top: 13.3vw;
+	height: 10vw;
+	width: 15vw;
+}
+.back-wheel-cover-1 {
+	clip-path: polygon(22% 10%, 56% 8%, 63% 16%, 25% 20%);
+
+	background:	rgb(138, 131, 128);
+	position: absolute;
+	left: 38vw;
+	top: 12vw;
+	height: 10vw;
+	width: 12vw;
+}
+.back-wheel-cover-2 {
+	clip-path: polygon(40% 6%, 48% 17%, 37% 47%, 38% 71%, 31% 76%, 29% 44%);
+
+	background: rgb(73, 70, 68);
+	position: absolute;
+	left: 34.8vw;
+	top: 12.5vw;
+	height: 8vw;
+	width: 15vw;
+}
+
+.front-left-tyre {
+	background: rgb(54, 54, 54);
+	width: 6.5vw;
+	height: 7.5vw;
+	border-radius: 50%;
+	box-shadow: -1vw 0px 0px 0px #000000, -0.2vw 1px 0px 0px #000000;
+	position: absolute;
+	left: 24vw;
+	top: 15.5vw;
+}
+.front-right-tyre {
+	background: black;
+	width: 7vw;
+	height: 8vw;
+	border-radius: 50%;
+	box-shadow: -1vw 0px 0px 0px rgb(54, 54, 54);
+	position: absolute;
+	left: 4vw;
+	top: 13vw;
+}
+
+.back-tyre {
+	background: rgb(54, 54, 54);
+	width: 5vw;
+	height: 6vw;
+	border-radius: 50%;
+	position: absolute;
+	left: 41.2vw;
+	top: 14.3vw;
+	box-shadow: -1vw 0px 0px 0px #000000, -0.2vw 1px 0px 0px #000000;
+}
